@@ -512,3 +512,10 @@ Run Application
 
 bash
 python main.py
+
+#Author:
+Tammisetti Bhavani. 
+
+#Contact details:
+*Email:tammisettibhavani23@gmail.com
+
