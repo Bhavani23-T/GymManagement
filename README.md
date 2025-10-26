@@ -69,26 +69,19 @@ The following exercises are currently supported:
 *   **Squats:** Tracks the angle of your legs.
 *   **Walk:** Tracks the alternating movement of your knees.
 
-✨ Features
+# Features
 User Features:
-✅ Member Registration & Login
+* Member Registration & Login
+* Workout Routine Access
+* Profile Management
+* AI Exercise Monito
+* Real-time Posture Feedback
 
-✅ Workout Routine Access
-
-✅ Profile Management
-
-✅ AI Exercise Monitoring
-
-✅ Real-time Posture Feedback
-
-Admin Features:
-✅ Member Management
-
-✅ Attendance Tracking
-
-✅ Rank Assignment (Beginner/Intermediate/Advanced)
-
-✅ System Oversight
+# Admin Features:
+* Member Management
+* Attendance Tracking
+* Rank Assignment (Beginner/Intermediate/Advanced)
+* System Oversight
 
 ## How it Works
 
@@ -122,127 +115,77 @@ The system is designed as a modular application with the following components:
 *   **`types_of_exercise.py`:** Contains the logic for counting repetitions for each exercise.
 
 #  Core Components:
-Presentation Layer
+*Presentation Layer
+*GUI built with Tkinter/PyQt
+*User and Admin dashboards
+*Application Layer
+*Authentication & Authorization
+*Business Logic Controllers
+*AI Integration Module
+*Data Layer
+*File-based Storage System
+*Local Data Persistence
 
-GUI built with Tkinter/PyQt
-
-User and Admin dashboards
-
-Application Layer
-
-Authentication & Authorization
-
-Business Logic Controllers
-
-AI Integration Module
-
-Data Layer
-
-File-based Storage System
-
-Local Data Persistence
-
-Data Flow:
-text
+#Data Flow:
+*text
 User Input → Authentication → Session Management → Business Logic → File Storage
 Webcam Feed → AI Processing → Pose Analysis → Real-time Feedback → User Display
 
-📄 Pages Overview
-🔐 Authentication Pages
+# Pages Overview
+*Authentication Pages:
+
 Login Page
-
 User/Admin role selection
-
 Username/password authentication
-
 Session management
-
 Registration Page
-
 New member sign-up
-
 Profile information collection
-
 Automatic rank assignment
 
-👤 User Dashboard
-Main Dashboard
+# User Dashboard
+ *Main Dashboard
+ *Welcome message & user stats
+ *Quick access to workouts
+ *Attendance summary
+ *Workout Section
+ *Exercise routines display
+ *Progress tracking
+ *AI trainer activation
+ *Profile Management
+ *Personal info update
+ *Password change
+ *Workout history
 
-Welcome message & user stats
+#Admin Dashboard:
+*Member Management
+*View all members
+*Edit/delete members
+*Assign ranks
+*Reset passwords
+*Attendance Module
+*Daily attendance tracking
+*Monthly reports
+*Member activity overview
+*System Analytics
+*Gym statistics
+*Member growth charts
+*Usage patterns
 
-Quick access to workouts
-
-Attendance summary
-
-Workout Section
-
-Exercise routines display
-
-Progress tracking
-
-AI trainer activation
-
-Profile Management
-
-Personal info update
-
-Password change
-
-Workout history
-
-⚙️ Admin Dashboard
-Member Management
-
-View all members
-
-Edit/delete members
-
-Assign ranks
-
-Reset passwords
-
-Attendance Module
-
-Daily attendance tracking
-
-Monthly reports
-
-Member activity overview
-
-System Analytics
-
-Gym statistics
-
-Member growth charts
-
-Usage patterns
-
-🤖 AI Trainer Interface
-Exercise Selection
-
-Choose from available exercises
-
-Set repetition goals
-
-Difficulty levels
-
-Real-time Monitoring
-
-Live camera feed
-
-Pose landmarks overlay
-
-Repetition counter
-
-Form feedback display
-
-Session Summary
-
-Performance metrics
-
-Form accuracy score
-
-Progress Comparsion
+#AI Trainer Interface:
+*Exercise Selection
+*Choose from available exercises
+*Set repetition goals
+*Difficulty levels
+*Real-time Monitoring
+*Live camera feed
+*Pose landmarks overlay
+*Repetition counter
+*Form feedback display
+*Session Summary
+*Performance metrics
+*Form accuracy score
+*Progress Comparsion
 
 ## System Architecture
 
@@ -254,7 +197,7 @@ The application follows a simple, layered architecture:
 4.  **Output Layer:** This layer displays the video feed with the pose landmarks and real-time feedback on the screen using OpenCV.
 
 
-🛠️ Technology Requirements
+# Technology Requirements
 Core Technologies:
 yaml
 Programming Language: Python 3.8+
@@ -275,16 +218,12 @@ datetime==4.7
 os-sys==2.2.1
 Hardware Requirements:
 Processor: Intel Core i3 or equivalent
-
 RAM: 4GB minimum, 8GB recommended
-
 Storage: 500MB free space
-
 Camera: 720p webcam or better
-
 OS: Windows 10/11, Ubuntu 18.04+
 
-💻 Code Implementation
+# Code Implementation
 Core Authentication Module
 python
 
@@ -292,7 +231,7 @@ python
 import hashlib
 from datetime import datetime
 
-class Authentication:
+#class Authentication:
     def __init__(self):
         self.users_file = "data/members.txt"
         self.admin_file = "data/admin_credentials.txt"
@@ -542,7 +481,7 @@ if __name__ == "__main__":
     app = GymManagementSystem(root)
     root.mainloop()
     
-📥 Installation & Setup
+# Installation & Setup
 Step-by-Step Installation:
 Clone and Setup
 
