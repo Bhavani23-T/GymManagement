@@ -513,6 +513,8 @@ Run Application
 bash
 python main.py
 
+#Sample Output videos:
+
 #Author:
 Tammisetti Bhavani. 
 
