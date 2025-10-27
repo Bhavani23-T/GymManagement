@@ -513,7 +513,7 @@ Run Application
 bash
 python main.py
 
-#outputs:
+#Pages Overview #:
 **Homepage**
 <img width="1079" height="605" alt="image" src="https://github.com/user-attachments/assets/b6649838-2ca5-44fd-9b5d-9c639d9ed75d" />
 
