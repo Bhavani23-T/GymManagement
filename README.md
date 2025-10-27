@@ -516,6 +516,14 @@ python main.py
 #outputs:
 #Homepage:
 <img width="1079" height="605" alt="image" src="https://github.com/user-attachments/assets/b6649838-2ca5-44fd-9b5d-9c639d9ed75d" />
+#Admin Login page:
+<img width="650" height="545" alt="image" src="https://github.com/user-attachments/assets/d670acdb-09c9-4e69-81b0-6344a7dd30c5" />
+#Admin page:
+<img width="899" height="592" alt="image" src="https://github.com/user-attachments/assets/80a83d61-5991-43d1-b6a9-68dfe124810a" />
+#Member login page:
+<img width="603" height="571" alt="image" src="https://github.com/user-attachments/assets/29ed861f-6fae-4f3b-9095-53d486e1af11" />
+#New Member Login page:
+<img width="875" height="601" alt="image" src="https://github.com/user-attachments/assets/345f5c11-99bc-437a-aadb-a04c87bc5725" />
 
 
 #Author:
